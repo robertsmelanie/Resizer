@@ -11,11 +11,23 @@
     <h1>Simple Image Resizer Tool</h1>
     <p>Resize your images easily with this tool.</p>
     <div class="container">
-        <h2>Click Button Choose File Upload an image </h2>
+            
+             <ul>
+                  <li>Click Button</li>
+                    <li>Choose File</li>
+                    <li>Upload an image</li>
+                </ul>   
+            
         <!-- <button id="resizeButton">Resize</button> -->
         <input type="file" id="upload" accept="image/*" />
         <!-- <input type="file" id="upload" accept="image/*" /> -->
-    
+        <ul>
+           
+            
+            <li>Type in the needed dimensions</li>
+            
+           
+        </ul>
             <div class="controls">
                 <h2>Type in the needed dimensions</h2>
                 <label for="width">Width:</label>
@@ -28,14 +40,22 @@
 
         <button id="resizeButton">Resize</button>
         <!-- <input type="file" id="upload" accept="image/*" /> -->
-    
+        <ul>
+          
+            <li>Click Resize</li>
+           
+        </ul>
       
         <div id="result" class="result">
             <h2>Resized Image</h2>
             <img id="resizedImage" src="" alt="Resized Image">
             <a id="downloadLink" href="#" download="resized-image.png">Download Resized Image</a>
         </div>
-    
+        <ul>
+          
+            <li>Download Resized Image</li>
+            <li>Enjoy your resized image!</li>
+        </ul>
     
         <div id="loading" class="loading" style="display: none;">
             <p>Loading...</p>
