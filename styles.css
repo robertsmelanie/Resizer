@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.ad {
+    background: #f4f4f4;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 0 10px;
+}
+
+.drop-zone {
+    border: 2px dashed #bbb;
+    padding: 40px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.drop-zone.hover {
+    border-color: #0088cc;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+#output img {
+    max-width: 100%;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+}
